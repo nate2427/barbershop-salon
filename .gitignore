@@ -1,0 +1,6 @@
+# never push node modules to a cloud repo --> waste of space
+node_modules/
+# never expose your API keys
+.env/
+# lock file
+package-lock.json
